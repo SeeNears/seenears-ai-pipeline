@@ -1,9 +1,9 @@
-import google.generativeai as genai
+from google import genai
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# 모델 초기화 (서버 시작 시 1회)
-model = genai.GenerativeModel("gemini-2.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_TEMPERATURE = float(os.getenv("GEMINI_TEMPERATURE", "0.1"))
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
