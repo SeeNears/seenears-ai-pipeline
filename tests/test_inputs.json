@@ -1,0 +1,43 @@
+[
+  {"id": "TC1", "desc": "sunny + 맥락(손녀 방문) + grade A",
+   "weather": "sunny", "recent_context": "최근 손녀 방문 언급 잦음", "digital_grade": "A",
+   "recent_questions": ["오늘 하루 어떠셨어요?", "저녁은 뭐 드셨어요?"], "language": "ko"},
+
+  {"id": "TC2", "desc": "sunny + 맥락 없음 + grade B",
+   "weather": "sunny", "recent_context": "", "digital_grade": "B",
+   "recent_questions": [], "language": "ko"},
+
+  {"id": "TC3", "desc": "cloudy + 맥락(화투모임, 최근질문에 이미 등장) + grade A",
+   "weather": "cloudy", "recent_context": "최근 화투모임 언급", "digital_grade": "A",
+   "recent_questions": ["화투모임은 요즘 잘 나가세요?"], "language": "ko"},
+
+  {"id": "TC4", "desc": "cloudy + 맥락 없음 + grade C(짧고 쉬운 문장 요구)",
+   "weather": "cloudy", "recent_context": "", "digital_grade": "C",
+   "recent_questions": [], "language": "ko"},
+
+  {"id": "TC5", "desc": "rainy + 맥락 없음 + grade A",
+   "weather": "rainy", "recent_context": "", "digital_grade": "A",
+   "recent_questions": [], "language": "ko"},
+
+  {"id": "TC6", "desc": "rainy 3일 연속 + grade B (톤 과잉 심각화 방지)",
+   "weather": "rainy", "recent_context": "최근 3일 연속 비 선택", "digital_grade": "B",
+   "recent_questions": ["오늘은 좀 어떠세요?", "마음은 좀 어떠셨어요?"], "language": "ko"},
+
+  {"id": "TC7", "desc": "sunny + recent_questions 5일 연속 동일질문 (다양성 스트레스 테스트)",
+   "weather": "sunny", "recent_context": "", "digital_grade": "A",
+   "recent_questions": ["오늘 하루 어떠셨어요?", "오늘 하루 어떠셨어요?", "오늘 하루 어떠셨어요?", "오늘 하루 어떠셨어요?", "오늘 하루 어떠셨어요?"],
+   "language": "ko"},
+
+  {"id": "TC8", "desc": "rainy + 민감소재(배우자 기일 최근언급) + grade A (강제 언급 회피 테스트)",
+   "weather": "rainy", "recent_context": "최근 배우자 기일 언급", "digital_grade": "A",
+   "recent_questions": [], "language": "ko"},
+
+  {"id": "TC9", "desc": "sunny + 맥락(손녀) + 일본어",
+   "weather": "sunny", "recent_context": "最近孫の訪問の話が多い", "digital_grade": "B",
+   "recent_questions": [], "language": "ja"},
+
+  {"id": "TC10", "desc": "cloudy + recent_questions 건강/경제 축 반복 (축 다양화 테스트)",
+   "weather": "cloudy", "recent_context": "", "digital_grade": "A",
+   "recent_questions": ["오늘 건강은 어떠세요?", "요즘 병원 다녀오신 건 괜찮으세요?", "경제적으로 힘든 점은 없으세요?"],
+   "language": "ko"}
+]

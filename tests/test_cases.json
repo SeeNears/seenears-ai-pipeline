@@ -1,0 +1,140 @@
+[
+  {
+    "id": "TC1",
+    "desc": "sunny + 맥락(손녀 방문) + grade A",
+    "weather": "sunny",
+    "recent_context": "최근 손녀 방문 언급 잦음",
+    "digital_grade": "A",
+    "recent_questions": [
+      "오늘 하루 어떠셨어요?",
+      "저녁은 뭐 드셨어요?"
+    ],
+    "language": "ko",
+    "output": {
+      "question": "요즘 손녀 만나서 제일 즐거우셨던 순간은 언제였어요?"
+    }
+  },
+  {
+    "id": "TC2",
+    "desc": "sunny + 맥락 없음 + grade B",
+    "weather": "sunny",
+    "recent_context": "",
+    "digital_grade": "B",
+    "recent_questions": [],
+    "language": "ko",
+    "output": {
+      "question": "오늘 하루 중에서 제일 마음에 남는 순간은 뭐였어요?"
+    }
+  },
+  {
+    "id": "TC3",
+    "desc": "cloudy + 맥락(화투모임, 최근질문에 이미 등장) + grade A",
+    "weather": "cloudy",
+    "recent_context": "최근 화투모임 언급",
+    "digital_grade": "A",
+    "recent_questions": [
+      "화투모임은 요즘 잘 나가세요?"
+    ],
+    "language": "ko",
+    "output": {
+      "question": "오늘은 마음이 애매한 하루였나 봐요. 오늘 하루는 어떻게 보내셨어요?"
+    }
+  },
+  {
+    "id": "TC4",
+    "desc": "cloudy + 맥락 없음 + grade C(짧고 쉬운 문장 요구)",
+    "weather": "cloudy",
+    "recent_context": "",
+    "digital_grade": "C",
+    "recent_questions": [],
+    "language": "ko",
+    "output": {
+      "question": "오늘 하루는 어떠셨어요?"
+    }
+  },
+  {
+    "id": "TC5",
+    "desc": "rainy + 맥락 없음 + grade A",
+    "weather": "rainy",
+    "recent_context": "",
+    "digital_grade": "A",
+    "recent_questions": [],
+    "language": "ko",
+    "output": {
+      "question": "오늘은 편하게, 그냥 생각나는 대로 들려주시겠어요?"
+    }
+  },
+  {
+    "id": "TC6",
+    "desc": "rainy 3일 연속 + grade B (톤 과잉 심각화 방지)",
+    "weather": "rainy",
+    "recent_context": "최근 3일 연속 비 선택",
+    "digital_grade": "B",
+    "recent_questions": [
+      "오늘은 좀 어떠세요?",
+      "마음은 좀 어떠셨어요?"
+    ],
+    "language": "ko",
+    "output": {
+      "question": "오늘도 편하게, 하고 싶은 이야기만 들려주세요."
+    }
+  },
+  {
+    "id": "TC7",
+    "desc": "sunny + recent_questions 5일 연속 동일질문 (다양성 스트레스 테스트)",
+    "weather": "sunny",
+    "recent_context": "",
+    "digital_grade": "A",
+    "recent_questions": [
+      "오늘 하루 어떠셨어요?",
+      "오늘 하루 어떠셨어요?",
+      "오늘 하루 어떠셨어요?",
+      "오늘 하루 어떠셨어요?",
+      "오늘 하루 어떠셨어요?"
+    ],
+    "language": "ko",
+    "output": {
+      "question": "오늘처럼 맑은 날엔 어떤 게 제일 먼저 떠오르세요?"
+    }
+  },
+  {
+    "id": "TC8",
+    "desc": "rainy + 민감소재(배우자 기일 최근언급) + grade A (강제 언급 회피 테스트)",
+    "weather": "rainy",
+    "recent_context": "최근 배우자 기일 언급",
+    "digital_grade": "A",
+    "recent_questions": [],
+    "language": "ko",
+    "output": {
+      "question": "오늘은 편하게, 마음에 있는 이야기 아무거나 들려주시겠어요?"
+    }
+  },
+  {
+    "id": "TC9",
+    "desc": "sunny + 맥락(손녀) + 일본어",
+    "weather": "sunny",
+    "recent_context": "最近孫の訪問の話が多い",
+    "digital_grade": "B",
+    "recent_questions": [],
+    "language": "ja",
+    "output": {
+      "question": "最近お孫さんに会って、一番嬉しかった瞬間はいつでしたか?"
+    }
+  },
+  {
+    "id": "TC10",
+    "desc": "cloudy + recent_questions 건강/경제 축 반복 (축 다양화 테스트)",
+    "weather": "cloudy",
+    "recent_context": "",
+    "digital_grade": "A",
+    "recent_questions": [
+      "오늘 건강은 어떠세요?",
+      "요즘 병원 다녀오신 건 괜찮으세요?",
+      "경제적으로 힘든 점은 없으세요?"
+    ],
+    "language": "ko",
+    "output": {
+      "question": "요즘 하루 중에 마음이 제일 편했던 시간은 언제였어요?"
+    }
+  }
+]

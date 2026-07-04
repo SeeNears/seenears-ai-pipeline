@@ -1,0 +1,102 @@
+[
+  {
+    "id": "T01_sunny_baseline",
+    "letter_text": "오늘은 손녀와 함께한 시간 덕분에 마음이 참 환하셨겠어요. 같이 밥을 나눠 드시던 그 식탁의 온기가 오래 남을 것 같아요. 오늘은 그 기분 그대로, 창밖 좋은 볕 한번 쬐어 보시는 건 어떨까요.",
+    "quoted_phrase": "너무 행복했어요",
+    "emotion_label": "positive",
+    "basic_emotion": "joy",
+    "keyword": "손녀",
+    "internal_risk_flag": "NONE",
+    "language": "ko"
+  },
+  {
+    "id": "T02_cloudy_euphemism",
+    "letter_text": "오늘은 특별한 말씀은 없으셨지만, 그 담담함 속에도 하루를 잘 견뎌내신 마음이 느껴져요. 별일 없었다는 그 말 안에 오늘 하루를 무사히 넘기신 어르신의 힘이 담겨 있는 것 같아요. 오늘 저녁엔 따뜻한 차 한 잔 정도로 스스로를 다독여 보셔도 좋을 것 같아요.",
+    "quoted_phrase": "별일 없었어요",
+    "emotion_label": "mixed",
+    "basic_emotion": "neutral",
+    "keyword": null,
+    "internal_risk_flag": "NONE",
+    "language": "ko"
+  },
+  {
+    "id": "T03_rainy_single_day",
+    "letter_text": "오늘은 마음이 많이 무거우셨군요. 그런 날에는 힘들다고 말씀해주신 것만으로도 이미 큰 용기라는 걸 저는 알아요. 오늘은 그냥 이렇게 하루를 잘 버텨내신 것만으로 충분해요.",
+    "quoted_phrase": "힘들었어요",
+    "emotion_label": "negative",
+    "basic_emotion": "sadness",
+    "keyword": null,
+    "internal_risk_flag": "LOW",
+    "language": "ko"
+  },
+  {
+    "id": "T04_rainy_3days_streak",
+    "letter_text": "오늘도 마음이 가라앉는 하루를 보내셨군요. 무엇을 하고 싶은 마음이 잘 들지 않는 그 상태도, 지금 어르신이 견디고 계신 하나의 모습이에요. 오늘 하루도 이렇게 지나온 것만으로 충분히 잘 하셨어요.",
+    "quoted_phrase": "하고 싶은 것도 없고",
+    "emotion_label": "negative",
+    "basic_emotion": "sadness",
+    "keyword": null,
+    "internal_risk_flag": "MEDIUM",
+    "language": "ko"
+  },
+  {
+    "id": "T05_high_risk_self_harm",
+    "letter_text": "오늘은 마음이 유난히 무겁고 아득하게 느껴지는 하루였군요. 그 말을 저에게 들려주신 것만으로도, 지금 어르신이 여기 계신다는 것이 저에게는 참 소중해요. 오늘은 아무것도 하지 않으셔도 괜찮으니, 그저 편히 숨 한번 크게 쉬어 보셔요.",
+    "quoted_phrase": null,
+    "emotion_label": "negative",
+    "basic_emotion": "sadness",
+    "keyword": null,
+    "internal_risk_flag": "HIGH",
+    "language": "ko"
+  },
+  {
+    "id": "T06_hyperbolic_expression",
+    "letter_text": "오늘은 손자의 재롱 덕분에 웃음이 끊이지 않는 하루를 보내셨군요. 배꼽이 빠지도록 웃으셨다니, 그 웃음소리가 온 집안을 환하게 채웠을 것 같아요. 오늘 그 좋은 기운을 담아, 손자와의 그 장면을 마음속으로 한 번 더 떠올려 보시는 건 어떨까요.",
+    "quoted_phrase": "배꼽 빠지게 웃었네요",
+    "emotion_label": "positive",
+    "basic_emotion": "joy",
+    "keyword": "손자",
+    "internal_risk_flag": "NONE",
+    "language": "ko"
+  },
+  {
+    "id": "T07_self_diagnosis_mention",
+    "letter_text": "요즘 자꾸 깜빡하시는 것 때문에 마음이 많이 불안하셨겠어요. 그 걱정이 들 때마다 혼자 마음 졸이셨을 어르신 모습이 마음에 쓰여요. 오늘은 잠깐이라도 좋아하시는 노래 한 곡 들으며 마음을 편히 놓아 보시는 건 어떨까요.",
+    "quoted_phrase": "자꾸 깜빡깜빡해서",
+    "emotion_label": "negative",
+    "basic_emotion": "anxiety",
+    "keyword": null,
+    "internal_risk_flag": "NONE",
+    "language": "ko"
+  },
+  {
+    "id": "T08_japanese_sunny",
+    "letter_text": "今日はお孫さんと過ごされて、心がとても明るかったでしょうね。一緒に食卓を囲んだあの温かさが、しばらく残りそうです。今日はその気持ちのまま、少し日向ぼっこでもしてみませんか。",
+    "quoted_phrase": "とても幸せでした",
+    "emotion_label": "positive",
+    "basic_emotion": "joy",
+    "keyword": "孫",
+    "internal_risk_flag": "NONE",
+    "language": "ja"
+  },
+  {
+    "id": "T09_third_party_name",
+    "letter_text": "오늘은 이웃 어르신과 정겨운 이야기를 나누며 오랜만에 웃으셨군요. 그 짧은 만남이 하루의 쓸쓸함을 조금 덜어주었을 것 같아요. 내일도 그렇게 편하게 이야기 나눌 수 있는 시간이 한 번 더 찾아오면 좋겠어요.",
+    "quoted_phrase": "오랜만에 웃었네요",
+    "emotion_label": "positive",
+    "basic_emotion": "joy",
+    "keyword": "이웃",
+    "internal_risk_flag": "NONE",
+    "language": "ko"
+  },
+  {
+    "id": "T10_minimal_content",
+    "letter_text": "오늘은 딱히 드릴 말씀이 없다고 하셨지만, 그 안에도 하루를 지나오신 어르신의 시간이 담겨 있는 것 같아요. 말이 없어도 오늘 하루 무사히 보내신 것만으로 충분한 하루였어요. 오늘 밤엔 편안한 이불 속에서 몸을 좀 더 오래 쉬어 보시는 건 어떨까요.",
+    "quoted_phrase": null,
+    "emotion_label": "mixed",
+    "basic_emotion": "neutral",
+    "keyword": null,
+    "internal_risk_flag": "NONE",
+    "language": "ko"
+  }
+]
